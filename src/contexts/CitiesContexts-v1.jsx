@@ -1,6 +1,7 @@
 import { createContext, useContext, useState, useEffect } from "react";
 
-const BASE_URL = `http://localhost:9000`;
+// const BASE_URL = `http://localhost:9000`;
+const BASE_URL = `/cities.json`;
 
 const CitiesContexts = createContext();
 
