@@ -6,8 +6,8 @@ import {
   useCallback,
 } from "react";
 
-// const BASE_URL = `http://localhost:9000`;
-const BASE_URL = `/cities.json`;
+const BASE_URL = `http://localhost:9000`;
+// const BASE_URL = `/cities.json`;
 const CitiesContexts = createContext();
 
 function reducer(state, action) {
